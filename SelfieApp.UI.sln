@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieApp.UI", "SelfieApp.UI\SelfieApp.UI.csproj", "{6E3659D7-DAF8-4928-9613-495D253E9FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebAPI", "TestWebAPI\TestWebAPI.csproj", "{7266F815-D790-4C03-94CE-F01F10F6BAC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{33B77562-DB55-4743-9BAA-77C79E5CD2F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{A0C5EE3F-EB25-4F55-806E-ECF164667EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAWookies.Core.Domain", "SelfieAWookies.Core.Domain\SelfieAWookies.Core.Domain.csproj", "{153897E5-91BC-403A-BF0D-CEBDD6E0DD24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAWookie.Core.Infrastructures", "SelfieAWookie.Core.Infrastructures\SelfieAWookie.Core.Infrastructures.csproj", "{C6C1BCD0-8960-470E-90F7-8FFB3CE0F4E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E3659D7-DAF8-4928-9613-495D253E9FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3659D7-DAF8-4928-9613-495D253E9FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3659D7-DAF8-4928-9613-495D253E9FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3659D7-DAF8-4928-9613-495D253E9FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7266F815-D790-4C03-94CE-F01F10F6BAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7266F815-D790-4C03-94CE-F01F10F6BAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7266F815-D790-4C03-94CE-F01F10F6BAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7266F815-D790-4C03-94CE-F01F10F6BAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153897E5-91BC-403A-BF0D-CEBDD6E0DD24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153897E5-91BC-403A-BF0D-CEBDD6E0DD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153897E5-91BC-403A-BF0D-CEBDD6E0DD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153897E5-91BC-403A-BF0D-CEBDD6E0DD24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C1BCD0-8960-470E-90F7-8FFB3CE0F4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C1BCD0-8960-470E-90F7-8FFB3CE0F4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C1BCD0-8960-470E-90F7-8FFB3CE0F4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C1BCD0-8960-470E-90F7-8FFB3CE0F4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7266F815-D790-4C03-94CE-F01F10F6BAC7} = {33B77562-DB55-4743-9BAA-77C79E5CD2F3}
+		{153897E5-91BC-403A-BF0D-CEBDD6E0DD24} = {A0C5EE3F-EB25-4F55-806E-ECF164667EB5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83AB281B-942B-4C14-B4C9-0A45B9315353}
+	EndGlobalSection
+EndGlobal
