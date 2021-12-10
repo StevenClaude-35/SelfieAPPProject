@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using SelfieApp.UI.Controllers;
 using System;
 using Xunit;
@@ -11,12 +12,15 @@ namespace TestWebAPI
         public void ShouldReturnListSelfies()
         {
             //Arange =>Préparer les jeux de données
-            var controller = new SelfieController();
+            var controller = new SelfieController(null);
             //Act
             var result = controller.Get();
             //Assert=>prouvé que c'est vrai
+
             Assert.NotNull(result);
-            Assert.True(result.GetEnumerator().MoveNext());
+            Assert.IsType<OkObjectResult>(result);
+            OkObjectResult okObjectResult = result as OkObjectResult;
+            Assert.NotNull(okObjectResult.Value);
         }
         #endregion
 
